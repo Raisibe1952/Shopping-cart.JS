@@ -1,4 +1,4 @@
-// DUMMY PRODUCTS (PRODUCT ID : DATA)
+
 var products = {
     123: {
       name : "Large pizza",

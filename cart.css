@@ -30,7 +30,7 @@
     cursor: pointer;
   }
   
-  /* (B) PRODUCTS LIST */
+  
   #cart-products {
     display: inline-flex;
     grid-template-columns: auto auto;
@@ -54,7 +54,7 @@
   .p-price { font-size: 1.35em; }
   input.p-add { width: 70%; }
   
-  /* (C) CURRENT SHOPPING CART */
+  
   #cart-items {
     background: #31394d;
     color: #fff;
@@ -83,8 +83,7 @@
     display: inline-block;
     border-radius: 50em;
     text-align: center;}
-  
-  /* (D) RESPONSIVE */
+
   @media screen AND (max-width: 768px) {
     #cart-wrap { grid-template-columns: 60% 40%; }
     #cart-products { grid-template-columns: auto; }
